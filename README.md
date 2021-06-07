@@ -69,7 +69,7 @@ python main.py
 
 Output:
 
-<img src=""  alt="1" width =70% height = 70%>
+<img src=".//example_results/Saccharospirillum.poff.plots.png"  alt="1" width =70% height = 70%>
 
 
 \

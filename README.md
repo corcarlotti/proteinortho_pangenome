@@ -29,6 +29,8 @@ optional arguments:
 
 # Examples
 
+*-A/--ANALYSE*
+
 Here is an example for running the ```-A/--ANALYSE```-option with the cluster table form proteinortho's calculation including 5 available genomes of the genus Saccharospirillum. The second input table was retrieved by running the program with the ```-N/--NAMES```-option.
 
 Run:

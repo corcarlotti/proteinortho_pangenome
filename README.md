@@ -33,7 +33,7 @@ optional arguments:
 
 Here is an example for running the ```-A/--ANALYSE```-option with the cluster table form proteinortho's calculation including 5 available genomes of the genus Saccharospirillum. The second input table was retrieved by running the program with the ```-N/--NAMES```-option.
 
-Run:
+Command:
 ```
 python main.py 
   -d Saccharospirillum.descriptions 
@@ -54,12 +54,12 @@ Core genes in clusters                                          11730           
 Accessory genes in clusters                                      5537                                   5537
 Gene cluster with annotated function                                0                                   2566
 ```
-
-
-
+\
+\
+\
 **2. ```-V/--VISUALIZE```**
 
-Run:
+Command:
 ```
 python main.py 
   -d Saccharospirillum.descriptions 
@@ -72,10 +72,13 @@ Output:
 <img src="./example_results/Saccharospirillum.poff.plots.png"  alt="1" width =70% height = 70%>
 
 
-
+\
+\
 **3. ```-G/--GENE_CONTRIBUTION```**
 
-Run:
+The gene contribution with each genome to the pangenome is calcualted in several iterations. If at least the lines in the last two columns are at same height, no gene contribution is happening with adding a further genome, therefore the pangenome is closed. Otherwise, the pangenome is open.
+
+Command:
 ```
 python main.py 
   -d Saccharospirillum.descriptions 

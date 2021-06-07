@@ -59,6 +59,8 @@ Gene cluster with annotated function                                0           
 \
 **2. ```-V/--VISUALIZE```**
 
+Get an overview of the pangenome by choosing the ```-V/--VISUALIZE```-option, retrieving two pie charts and two bar charts. 
+
 Command:
 ```
 python main.py 

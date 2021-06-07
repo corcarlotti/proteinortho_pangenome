@@ -35,9 +35,9 @@ Here is an example for running the ```-A/--ANALYSE```-option with the cluster ta
 
 Command:
 ```
-python main.py 
-  -d Saccharospirillum.descriptions 
-  -i Saccharospirillum.poff.tsv Saccharospirillum.poff.named.tsv 
+python main.py \
+  -d Saccharospirillum.descriptions \
+  -i Saccharospirillum.poff.tsv Saccharospirillum.poff.named.tsv \
   -A
 ```
 
@@ -63,9 +63,9 @@ Get an overview of the pangenome by choosing the ```-V/--VISUALIZE```-option, re
 
 Command:
 ```
-python main.py 
-  -d Saccharospirillum.descriptions 
-  -i Saccharospirillum.poff.tsv
+python main.py \
+  -d Saccharospirillum.descriptions \
+  -i Saccharospirillum.poff.tsv \
   -V
 ```
 
@@ -82,9 +82,9 @@ The gene contribution with each genome to the pangenome is calcualted in several
 
 Command:
 ```
-python main.py 
-  -d Saccharospirillum.descriptions 
-  -i Saccharospirillum.poff.tsv
+python main.py \
+  -d Saccharospirillum.descriptions \
+  -i Saccharospirillum.poff.tsv \
   -G
 ```
 

@@ -31,11 +31,26 @@ optional arguments:
 
 Here is an example for running the ```-A/--ANALYSE```-option with the cluster table form proteinortho's calculation including 5 available genomes of the genus Saccharospirillum. The second input table was retrieved by running the program with the ```-N/--NAMES```-option.
 
+Run:
 ```
 python main.py 
   -d Saccharospirillum.descriptions 
   -i Saccharospirillum.poff.tsv Saccharospirillum.poff.named.tsv 
   -A
+```
+
+Output:
+```
+                                      test/Saccharospirillum.poff.tsv  test/Saccharospirillum.poff.named.tsv
+Total genes from all input genomes                              19444                                  19444
+Genes in gene clusters                                          17267                                  17267
+Gene clusters                                                    4379                                   4379
+Unique genes                                                     2177                                   2177
+Core gene clusters                                               2344                                   2344
+Accessory gene clusters                                          2035                                   2035
+Core genes in clusters                                          11730                                  11730
+Accessory genes in clusters                                      5537                                   5537
+Gene cluster with annotated function                                0                                   2566
 ```
 
 

@@ -29,7 +29,7 @@ optional arguments:
 
 # Examples
 
-*1*. ```-A/--ANALYSE
+**1. ```-A/--ANALYSE```**
 
 Here is an example for running the ```-A/--ANALYSE```-option with the cluster table form proteinortho's calculation including 5 available genomes of the genus Saccharospirillum. The second input table was retrieved by running the program with the ```-N/--NAMES```-option.
 
@@ -56,3 +56,33 @@ Gene cluster with annotated function                                0           
 ```
 
 
+
+**2. ```-V/--VISUALIZE```**
+
+Run:
+```
+python main.py 
+  -d Saccharospirillum.descriptions 
+  -i Saccharospirillum.poff.tsv
+  -V
+```
+
+Output:
+
+<img src="./example_results/Saccharospirillum.poff.plots.png"  alt="1" width =70% height = 70%>
+
+
+
+**3. ```-G/--GENE_CONTRIBUTION```**
+
+Run:
+```
+python main.py 
+  -d Saccharospirillum.descriptions 
+  -i Saccharospirillum.poff.tsv
+  -G
+```
+
+Output:
+
+<img src="./example_results/Saccharospirillum.poff.boxplot.png"  alt="1" width =70% height = 70%>
